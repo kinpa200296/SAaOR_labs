@@ -1,0 +1,38 @@
+﻿<Window x:Class="SAaOR_labs.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:SAaOR_labs.ViewModel"
+        Title="MainWindow" Height="350" Width="700">
+    <Window.DataContext>
+        <vm:MainWindowViewModel />
+    </Window.DataContext>
+    <TabControl>
+        <TabItem Header="Лабораторная 0">
+            <Frame Source="Lab0.xaml" NavigationUIVisibility="Hidden"/>
+        </TabItem>
+        <TabItem Header="Лабораторная 1">
+            <Frame Source="Lab1.xaml" NavigationUIVisibility="Hidden"/>
+        </TabItem>
+        <TabItem Header="Лабораторная 2">
+            <Frame Source="Lab2.xaml" NavigationUIVisibility="Hidden"/>
+        </TabItem>
+        <TabItem Header="Лабораторная 3">
+            <Frame Source="Lab3.xaml" NavigationUIVisibility="Hidden"/>
+        </TabItem>
+        <TabItem Header="Лабораторная 4">
+            <Frame Source="Lab4.xaml" NavigationUIVisibility="Hidden"/>
+        </TabItem>
+        <TabItem Header="Лабораторная 5">
+            <Frame Source="Lab5.xaml" NavigationUIVisibility="Hidden"/>
+        </TabItem>
+        <TabItem Header="Лабораторная 6">
+            <Frame Source="Lab6.xaml" NavigationUIVisibility="Hidden"/>
+        </TabItem>
+        <TabItem Header="Лабораторная 7">
+            <Frame Source="Lab7.xaml" NavigationUIVisibility="Hidden"/>
+        </TabItem>
+        <TabItem Header="Лабораторная 8">
+            <Frame Source="Lab8.xaml" NavigationUIVisibility="Hidden"/>
+        </TabItem>
+    </TabControl>
+</Window>
